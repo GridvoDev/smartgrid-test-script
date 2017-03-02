@@ -10,10 +10,10 @@ var options = {
     method: "POST",
     path: url,
     entity: {
-        dataSourceID: "station-type-other",
-        dataType: "dataType",
-        station : "stationID",
-        lessee: "lesseeID"
+        dataSourceID: "NWHSDZ-YL",
+        dataType: "YL",
+        station : "NWHSDZ",
+        lessee: "LHNY"
     }
 };
 let request = this._httpRequest.wrap(mime, {mime: 'application/json'});

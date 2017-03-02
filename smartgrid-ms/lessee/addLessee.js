@@ -10,9 +10,9 @@ var options = {
     method: "POST",
     path: url,
     entity: {
-        lesseeID: "lesseeID",
-        lesseeName: "lesseeName",
-        corpID: "corpID"
+        lesseeID: "LHNY",
+        lesseeName: "LHNY",
+        corpID: "LHNY"
     }
 };
 let request = this._httpRequest.wrap(mime, {mime: 'application/json'});
